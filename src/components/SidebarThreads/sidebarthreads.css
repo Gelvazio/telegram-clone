@@ -1,0 +1,26 @@
+.sidebarthreads {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border-bottom: 1px solid rgba(190, 190, 190, 0.1);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.sidebarthreads:hover {
+    background-color: #28282D;
+    border-radius: 2px;
+}
+
+.sidebarthreads__details {
+    margin-left: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.sidebarthreads__timestamp {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}

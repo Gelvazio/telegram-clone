@@ -1,0 +1,95 @@
+.thread {
+    display: flex;
+    width: 100%;
+    flex: 0.75;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.thread__header {
+    display: flex;
+    border-bottom: 1px solid rgba(190, 190, 190, 0.1);
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.thread__header__contents {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+.thread__header__contents__info {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.thread__header__contents__info > h5 {
+    font-weight: 500;
+    color: gray;
+}
+
+.thread__header__details {
+    color: white;
+}
+
+.thread__header__details {
+    color: #04d361;
+}
+
+.thread__header__details:hover {
+    color: #19be63;
+}
+
+.thread__messages {
+    flex: 1;
+    overflow: scroll;
+}
+
+.thread__messages::-webkit-scrollbar { 
+    display: none;
+}
+
+.thread_input {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-top: 1px solid rgba(190, 190, 190, 0.1);
+}
+
+.thread_input > form {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.thread_input > form > input {
+    width: 98%;
+    outline: 0;
+    outline-width: 0 !important;
+    border: none;
+    border-radius: 0 !important;
+    margin-left: 5px;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.thread_input > form > button {
+    color: white;
+}
+
+.thread_input > form > button:hover {
+    color: #19be63;
+}
+
+.thread_iconButton .MuiSvgIcon-root { 
+    margin-top: 13px;
+    color: #19be63;
+}

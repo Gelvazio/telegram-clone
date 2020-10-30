@@ -1,0 +1,41 @@
+.messagebody {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.messagebody__contents {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: auto;
+}
+
+.messagebody > div > p {
+    color: white;
+}
+
+.messagebody > div > small {
+    color: white;
+    position: absolute;
+    font-size: 10px;
+    right: 0;
+    bottom: -10px;
+}
+
+.messagebody__sender {
+    margin-left: auto;
+}
+
+.messagebody__sender > .messagebody__contents {
+    background-color: rgba(2, 150 ,199);
+}
+
+.messagebody__sender > .messagebody__photo {
+    order: 1;
+    margin: 15px;
+}
